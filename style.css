@@ -1,0 +1,43 @@
+body,header,h1{
+  margin:0;
+}
+
+header{
+  background: #ccc;
+  text-align: center;
+  padding:0.25;
+}
+
+nav {
+  background:pink;
+  display: flex;
+  justify-content: center;
+
+}
+
+nav a {
+  padding: 1.25em 1.5em;
+  font-style: italic;
+  font-size: 17px;
+  transition: all 1.5s;
+}
+
+nav a:hover {
+  background-color: blue;
+}
+
+main {
+  padding: 0 10px;
+}
+
+/*Vertical Menu*/
+nav{
+  flex-direction:column;
+  width: 15%;
+  float: left;
+}
+main{
+  width:85%;
+  float:right;
+  box-sizing:border-box;
+}
